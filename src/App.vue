@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- 顶部通栏 -->
-    <div class="header">
+      <!-- 顶部通栏  -->
+      <div class="header">
         <!-- 1.0 导航栏头部 -->
         <div class="head-top">
             <div class="section">
@@ -38,9 +38,9 @@
                 <div id="menu2" class="nav-box menuhd">
                     <ul>
                         <li class="index">
-                                <router-link to="/index">
-                                    <span class="out" style="top: 0px;">首页</span>
-                                </router-link>
+                            <a href="#" class="">
+                                <span class="out" style="top: 0px;">首页</span>
+                            </a>
                         </li>
                         <li class="news">
                             <a href="#" class="">
@@ -80,10 +80,8 @@
             </div>
         </div>
     </div>
-    <!-- 路由的出口 -->
-    <router-view></router-view>
-    <!-- 底部通栏 -->
-    <div class="footer">
+      <!-- 底部通栏 -->
+      <div class="footer">
                 <div class="section">
                     <div class="foot-nav">
                         <a href="">关于我们</a>
@@ -118,10 +116,12 @@
 </template>
 
 <script>
-export default {}; 
+export default {};
 </script>
 
 <style>
-  /* 标准的 css中导入其他css的语法 */
-  /* @import url('./assets/statics/site/css/style.css'); */
+/* 标准的 css中导入其他css的语法 */
+/* @import url('./assets/statics/site/css/style.css'); */
+
+
 </style>
